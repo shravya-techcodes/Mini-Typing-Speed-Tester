@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed</title>
+    <link rel="stylesheet" href="../static/type.css">
+</head>
+<body>
+    <h1>Typing Speed Test</h1>
+    <form method="POST" action="{{ url_for('result') }}">
+        <div class="div1">
+            <textarea name="original_text" id="text" rows="10" cols="12" readonly>{{ test1 }}</textarea>
+            <textarea name="input_text" id="input" rows="10" cols="12" placeholder="Type your text here....."></textarea>
+            <!-- Hidden field to store start time -->
+            <input type="hidden" name="start_time" id="start_time">
+            <div class="btn">
+                <button type="submit">SUBMIT</button></div>
+        </div>
+    </form>
+    <script>
+        let started = false;
+        document.getElementById("input").addEventListener("input", function () {
+            if (!started) {
+                document.getElementById("start_time").value = Date.now() / 1000;
+                started = true;
+            }
+        });
+    </script>
+</body>
+</html>

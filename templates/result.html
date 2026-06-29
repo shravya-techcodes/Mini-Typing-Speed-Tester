@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/type.css">
+    </head>
+    <body>
+    <h2>Your Test Results</h2>
+    <div class="container">
+        <div class="r1"><p style="color: #fe1deb; font-size: 1.9rem; font-weight: bold;">Speed<br>{{speed}} WPM</p></div>
+        <div class="r1"><p style="color: #fe1deb; font-size: 1.9rem; font-weight: bold;">Time<br>{{time}} Sec</p></div>
+        <div class="r1"><p style="color: #fe1deb; font-size: 1.9rem; font-weight: bold;">Error<br>{{error}} errors</p></div>
+    </div>
+    <h3 style="color: #d5fe1d; margin-left: 10%; font-size: 180%;">Your text: <span style="color: red;">{{typed}}</span></h3>
+    <div class="last">
+        <a href="{{url_for('home')}}" title="Click to restart again !!!">Try Again</a>
+    </div>
+    </body>
+</html>

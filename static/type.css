@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+}
+h1,h2{
+    font-weight: bold;
+    color: #1dfe55;
+    text-shadow: 5px 2px 4px #fe1dc2;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2%;
+    letter-spacing: 4px;
+}
+.div1{
+    margin-left: 17%;
+    width: 1000px;
+    height: 600px;
+}
+#text{
+    height: 150px;
+    width: 740px;
+    padding: 5px 15px;
+    font-size: medium;
+    margin-left: 11%;
+    margin-top: 5%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #d5fe1d;
+    font-size: 150%;
+}
+#input{
+    height: 150px;
+    width: 740px;
+    margin-left: 11%;
+    padding: 15px 15px;
+    font-size: 150%;
+    margin-top: 3%;
+    border: 2px solid #fe1deb;
+    outline: none;
+    background-color: transparent;
+    color: #d5fe1d;
+    caret-color: lightgrey;
+}
+textarea::placeholder{
+    font-style: italic;
+    text-align: center;
+    padding: 50px;
+}
+#input:focus{
+    border: 2px solid #1dfe55;
+    box-shadow:1px 1px 19px #1dfe55;
+}
+.btn{
+    margin-left: 46%;
+    margin-top: 5%;
+    width: 14%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 22px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: medium;
+    color: #fe1dc2;
+    background-color: transparent;
+    border: 2px solid #fe1deb;
+}
+button:active{
+    box-shadow: 1px 1px 25px 5px #1dfe55;
+    border: none;
+    color: #d5fe1d;
+}
+.container{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.r1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border: 2px solid #fe1dc2;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color:#d5fe1d;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+h2{
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 340%;
+}
