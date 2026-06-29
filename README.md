@@ -1,5 +1,5 @@
 ## Typing Speed Tester Web Application
----
+
 Typing Speed Test is my first Flask web application, built to strengthen my understanding of backend web development. The application generates random typing passages, calculates Words Per Minute (WPM), tracks typing errors, and records the time taken, providing users with instant feedback on their typing performance.
 
 ### Features:
@@ -11,6 +11,7 @@ Typing Speed Test is my first Flask web application, built to strengthen my unde
 
 ### Screeshots:
 Home_page and Result_page
+
 ---
 **Demo:** https://mini-typing-speed-tester.onrender.com
 ---
